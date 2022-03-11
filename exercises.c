@@ -36,10 +36,9 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
-   int inicio = n-m;
    int lista2[m];
    int cont = 0;
-   for (inicio; inicio < n; inicio++)
+   for (int inicio = n-m; inicio < n; inicio++)
    {
       lista2[cont] = a[inicio];
       cont++;
