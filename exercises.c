@@ -12,9 +12,7 @@ y en c almacena el valor de la suma de a más b.
 */
 
 void suma(int a, int b, int * c) {
-   scanf("%d", a);
-   scanf("%d", b);
-   c = a+b;
+   *c = a+b;
 }
 /*
 Esta función suma los N primeros números del arreglo a
@@ -38,7 +36,15 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
-
+   int inicio = n-m;
+   int lista2[m];
+   int cont = 0;
+   for (inicio; inicio < n; inicio++)
+   {
+      lista2[cont] = a[inicio];
+      cont++;
+   }
+   *suma = sumaN(lista2, m);
 }
 
 /*
