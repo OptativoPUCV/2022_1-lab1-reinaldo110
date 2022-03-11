@@ -7,8 +7,8 @@
 target_file="exercises.c"
 testcode="test.c"
 
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
+git config --global user.email "reinaldomail17@gmail.com"
+git config --global user.name "reinaldo110"
 
 #Verifca si se realizaron cambios 
 CHANGED=$(git diff --ignore-space-at-eol -b -w --ignore-blank-lines $target_file)
