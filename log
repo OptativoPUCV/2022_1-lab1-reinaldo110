@@ -231,3 +231,29 @@ test.c:88:9: note: 'sprintf' output between 4 and 313 bytes into a destination o
 cc1.exe: all warnings being treated as errors
 Compilation failed
 d66a99b
+Fri Mar 11 20:46:57 PSADT 2022: 
+test.c:8:8: error: '_strdup' redeclared without dllimport attribute: previous dllimport ignored [-Werror=attributes]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+test.c: In function 'test_suma_n':
+test.c:88:17: error: passing argument 1 to restrict-qualified parameter aliases with argument 3 [-Werror=restrict]
+         sprintf(msg,"%s %d,",msg,a[i]);
+                 ^~~          ~~~
+test.c:90:13: error: passing argument 1 to restrict-qualified parameter aliases with argument 3 [-Werror=restrict]
+     sprintf(msg,"%s]",msg);
+             ^~~       ~~~
+test.c:90:21: error: 'sprintf' may write a terminating nul past the end of the destination [-Werror=format-overflow=]
+     sprintf(msg,"%s]",msg);
+                     ^
+test.c:90:5: note: 'sprintf' output between 2 and 301 bytes into a destination of size 300
+     sprintf(msg,"%s]",msg);
+     ^~~~~~~~~~~~~~~~~~~~~~
+test.c:88:25: error: '%d' directive writing between 1 and 11 bytes into a region of size between 0 and 299 [-Werror=format-overflow=]
+         sprintf(msg,"%s %d,",msg,a[i]);
+                         ^~
+test.c:88:9: note: 'sprintf' output between 4 and 313 bytes into a destination of size 300
+         sprintf(msg,"%s %d,",msg,a[i]);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+66d2558
