@@ -434,3 +434,7 @@ test.c:84:13: error: passing argument 1 to restrict-qualified parameter aliases 
 cc1.exe: all warnings being treated as errors
 Compilation failed
 97a9159
+Sat, Mar 12, 2022  1:44:46 PM: 
+ tests:  2|5
+total_score: 20/70
+1d78948
