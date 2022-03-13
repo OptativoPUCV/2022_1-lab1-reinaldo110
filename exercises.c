@@ -112,11 +112,12 @@ Función que suma los vectores `a` y `b` y
 actualiza el vector `c` con el resultado de la suma. 
 */
 void sumaV(Vector * a, Vector * b, Vector * c) {
+   /* Esto solia usar sizeof(c) para determinar cuantos datos sumar, pero test.sh causaba un error al compilar,
+   lo cambie a 3 porque test.c usa vectores de tamaño 3 para comprobar, si pudiera lo mantendria como sizeof */
    for (int i = 0; i < 3; i++)
    {
       c->datos[i] = a->datos[i] + b->datos[i];
    }
-
 }
 
 /*
