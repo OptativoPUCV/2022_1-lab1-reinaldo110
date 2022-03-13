@@ -510,3 +510,9 @@ be79d3f
 Sun, Mar 13, 2022  2:54:53 AM: 
  tests:  0|0
 11febf8
+Sun, Mar 13, 2022  2:57:20 AM: 
+ exercises.c | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+ tests:  6|2
+total_score: 50/70
+1d69aa1
