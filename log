@@ -564,3 +564,9 @@ Sun, Mar 13, 2022  3:15:31 AM:
  1 file changed, 3 insertions(+), 4 deletions(-)
  tests:  0|0
 c687698
+Sun, Mar 13, 2022  3:16:01 AM: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+ tests:  8|0
+total_score: 70/70
+a99c3d7
