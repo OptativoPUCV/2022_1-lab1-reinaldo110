@@ -543,3 +543,9 @@ Sun, Mar 13, 2022  3:08:14 AM:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 cd301be
+Sun, Mar 13, 2022  3:09:59 AM: 
+ exercises.c | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+ tests:  7|1
+total_score: 60/70
+c0ebab8
