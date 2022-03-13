@@ -112,11 +112,8 @@ Función que suma los vectores `a` y `b` y
 actualiza el vector `c` con el resultado de la suma. 
 */
 void sumaV(Vector * a, Vector * b, Vector * c) {
-   /* Solucion comentada debido a un error de ejecucion de test.sh, comprobé que funciona en un programa de prueba, 
-   mañana consulto que podría ser para subirla correctamente. */
-   
-   /*for (int i = 0; i < sizeof(c); i++)
-      c->datos[i] = a->datos[i] + b->datos[i];*/
+   for (int i = 0; i < sizeof(c); i++)
+      c->datos[i] = a->datos[i]+b->datos[i];
 }
 
 /*
