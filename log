@@ -456,3 +456,9 @@ Sun, Mar 13, 2022  1:23:33 AM:
  tests:  2|5
 total_score: 20/70
 ce8aa34
+Sun, Mar 13, 2022  1:55:05 AM: 
+ exercises.c | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+ tests:  3|4
+total_score: 30/70
+41b6a7b
